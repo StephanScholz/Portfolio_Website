@@ -10,7 +10,7 @@ body {
   color: #000;
 }
 a {
-  color: #EEADAD;
+  color: #d1a47a;
 }
 a:hover {
   color: #FFF;
@@ -21,7 +21,7 @@ a:hover {
   z-index: -2;
 }
 .flex-center {
-  min-height: 75%;
+  min-height: 80%;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -35,7 +35,7 @@ a:hover {
   min-width: 60vw;
   min-height: 0;
   padding: 2%;
-  margin-top: 5vh;
+  margin-top: 10vh;
   border-radius: 5px;
 }
 #start-button {
@@ -43,12 +43,13 @@ a:hover {
   font-size: 2vw;
   position: absolute;
   font-family: "Consolas";
+  border: none;
   border-radius: 15px;
   border-color: #10268B;
   border-width: 2px;
-  background-color: rgba(93, 105, 159);
+  background-color: rgb(69, 104, 75);
   color: #bbbbbb;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 #typetext {
   color: #fff;
@@ -68,9 +69,10 @@ a:hover {
   font-size: 1em;
 }
 .navbar {
+  display: block;
   margin-bottom: 0;
   border-radius: 0;
-  background-color: rgb(196, 141, 84);
+  background-color: rgb(69, 104, 75);
   padding: 0;
   font-size: 1.4em;
   border: none;
@@ -87,17 +89,20 @@ a:hover {
 .navbar-inverse .navbar-nav li a {
   padding-top: 20px;
   font-weight: bold;
-  color: #4c5891;
+  color: #d5d5d5;
 }
 .container {
-  border: 2px solid #0B0000;
+  border: none;
   border-radius: 10px;
   border-color: #10268B;
-  margin: 4% auto;
+  margin-top: 2%;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: rgba(93, 105, 159);
-  color: #bbbbbb;
+  background-color: rgba(69, 104, 75, 0.7);
+  color: #d5d5d5;
+}
+#top-container {
+  margin-top: 5%;
 }
 .project-image {
   opacity: 1;
@@ -150,7 +155,10 @@ a:hover {
 .fa {
   padding: 20px;
   font-size: 30px;
-  color: #5876b3;
+  color: #d1a47a;
+}
+.fa:visited {
+  color: #b89ac4;
 }
 .caption h2{
   color: #000;
@@ -161,4 +169,7 @@ a:hover {
 }
 #icon img h4 {
   top:50%;
+}
+.sticky-footer {
+  margin-bottom: 0;
 }
