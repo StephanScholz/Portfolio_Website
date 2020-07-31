@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url(img/background.jpg) no-repeat center center fixed;
+  background: url(img/background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,7 +10,7 @@ body {
   color: #000;
 }
 a {
-  color: #000099;
+  color: #EEADAD;
 }
 a:hover {
   color: #FFF;
@@ -32,7 +32,7 @@ a:hover {
   text-align: center;
   position: relative;
   background-color: black;
-  min-width: 45vw;
+  min-width: 60vw;
   min-height: 0;
   padding: 2%;
   margin-top: 5vh;
@@ -43,9 +43,11 @@ a:hover {
   font-size: 2vw;
   position: absolute;
   font-family: "Consolas";
-  border-radius: 5px;
-  background-color: #b07317;
-  color: #000;
+  border-radius: 15px;
+  border-color: #10268B;
+  border-width: 2px;
+  background-color: rgba(93, 105, 159);
+  color: #bbbbbb;
   margin-top: 5vh;
 }
 #typetext {
@@ -68,11 +70,10 @@ a:hover {
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #b07317;
-  color: #FFF;
+  background-color: rgb(196, 141, 84);
   padding: 0;
   font-size: 1.4em;
-  border: 2px solid rgb(0,128,128);
+  border: none;
 }
 .navbar-brand {
   float: left;
@@ -85,15 +86,18 @@ a:hover {
 }
 .navbar-inverse .navbar-nav li a {
   padding-top: 20px;
-  color: #000;
+  font-weight: bold;
+  color: #4c5891;
 }
 .container {
-  border: 2px solid rgb(0,128,128);
+  border: 2px solid #0B0000;
   border-radius: 10px;
+  border-color: #10268B;
   margin: 4% auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #b07317;
+  background-color: rgba(93, 105, 159);
+  color: #bbbbbb;
 }
 .project-image {
   opacity: 1;
@@ -146,7 +150,7 @@ a:hover {
 .fa {
   padding: 20px;
   font-size: 30px;
-  color: #000033;
+  color: #5876b3;
 }
 .caption h2{
   color: #000;
@@ -157,8 +161,4 @@ a:hover {
 }
 #icon img h4 {
   top:50%;
-}
-@media () {
-  
-  
 }
