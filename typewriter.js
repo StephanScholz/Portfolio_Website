@@ -44,7 +44,7 @@ function typewriter()
       iArrLength = aText[iIndex].length;
       setTimeout("typewriter()", 500);
     } else {
-      setTimeout("resetTypewriter()", 5000);
+      //setTimeout("resetTypewriter()", 5000);
     }
   } else {
     setTimeout("typewriter()", iSpeed);
